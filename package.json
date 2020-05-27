@@ -1,0 +1,33 @@
+{
+  "name": "paste-and-scan-qrcode",
+  "version": "0.0.1",
+  "description": "Paste image and scan for QR code",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cominging/paste-and-scan-qrcode.git"
+  },
+  "keywords": [
+    "paste",
+    "clipboard",
+    "qrcode"
+  ],
+  "author": "Mao Hsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cominging/paste-and-scan-qrcode/issues"
+  },
+  "homepage": "https://github.com/cominging/paste-and-scan-qrcode#readme",
+  "dependencies": {
+    "paste-image": "0.0.3",
+    "qr-scanner": "^1.1.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
